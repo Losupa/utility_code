@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            // Launches on chrome to debug
+            // requires "Chrome debugger" extension
+            "type": "chrome",
+            "request": "launch",
+            "name": "basic_web_debugger",
+            // url of hte html page that we will run on live server
+            // NOTE: requires "live server" extension up and running
+            "url": "http://127.0.0.1:5500/login.html?user=alice&password=md5ftw",
+            // webRoot sets where the local server considers root
+            "webRoot": "${workspaceFolder}"
+        },
+    ]
+}
